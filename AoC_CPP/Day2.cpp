@@ -6,6 +6,7 @@ void Day2A()
 {
 
 	int Position[2] = { 0,0 };
+	int Aim = 0;
 
 	std::ifstream InFile;
 	InFile.open("Day2Input.txt", std::ios::in);
@@ -19,14 +20,15 @@ void Day2A()
 		if(Line.front() == 'f')
 		{
 			Position[0] += std::stoi(Val);
+			Position[1] += Aim * std::stoi(Val);
 		}
 		else if (Line.front() == 'd')
 		{
-			Position[1] += std::stoi(Val);
+			Aim += std::stoi(Val);
 		}
 		else if (Line.front() == 'u')
 		{
-			Position[1] -= std::stoi(Val);
+			Aim -= std::stoi(Val);
 		}
 
 	}
