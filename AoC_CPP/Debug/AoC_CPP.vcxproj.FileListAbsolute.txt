@@ -1,0 +1,2 @@
+C:\Users\NB\Desktop\Code\AoC_CPP\Debug\AoC_CPP.exe
+C:\Users\NB\Desktop\Code\AdventOfCode\AoC_CPP\Debug\AoC_CPP.exe

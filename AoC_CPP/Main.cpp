@@ -1,9 +1,9 @@
-#include <iostream>
 
 #include "Day1.h"
+#include "Day2.h"
 
 int main()
 {
-	std::cout << CountIncreases() << std::endl;
+	Day2A();
 	return 0;
 }
